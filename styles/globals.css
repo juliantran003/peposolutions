@@ -744,7 +744,7 @@ body {
     top: auto;
     bottom: 0;
     left: 0;
-    background: linear-gradient(to left, transparent 20%, black 100%);
+    /* background: linear-gradient(to left, transparent 20%, black 100%); */
     height: 100%;
     width: 100%;
     display: flex;
