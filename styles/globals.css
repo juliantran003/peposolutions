@@ -736,7 +736,10 @@ body {
   .footer > div:nth-child(2) {
     margin-right: 14%;
   }
-
+  .arrow {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
   .hero_content {
     top: auto;
     bottom: 0;
