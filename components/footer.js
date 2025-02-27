@@ -9,7 +9,7 @@ export default function Footer() {
         <Image src="/img/instagram.png" fill alt="Instagram" />
       </div>
       <div>
-        <Image src="/img/logo_header.png" fill alt="Pepo Solutions" />
+        <Image src="/img/logos/W&B-logo.png" fill alt="Pepo Solutions" />
       </div>
       <Link href="email:to" className="button_1">
         Contact Us

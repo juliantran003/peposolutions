@@ -21,21 +21,22 @@ export default function Header() {
       <div className="header_grid">
         <div className="header_grid_box_1">
           <div className="header_logo" onClick={() => router.push("/")}>
-            <Image src="/img/logo_header.png" fill alt="Pepo Solutions" />
+            <Image src="/img/logos/W&B-logo.png" fill alt="Pepo Solutions" />
           </div>
         </div>
         <div className="header_grid_box_2">
           <menu className="header_menu">
+            <Link href="/">Home</Link>
             <Link href="/services">Services</Link>
             <Link href="/portfolio">Portfolio</Link>
             <Link href="/about">About</Link>
-            <Link href="/contact">Contact</Link>
+            {/* <Link href="/contact">Contact</Link> */}
           </menu>
         </div>
         <div className="header_grid_box_3">
-          <Link className="header_button" href="/contact">
-            Get a quote
-          </Link>
+          <a className="header_button" href="mailto:someone@yoursite.com">
+            GET IN TOUCH{" "}
+          </a>
         </div>
       </div>
     </header>
