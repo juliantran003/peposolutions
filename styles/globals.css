@@ -803,4 +803,62 @@ body {
     margin-top: 10px;
     margin-bottom: 50px;
   }
+  .hero_template_content > h1 {
+    font-size: 50px;
+  }
+  .services_article {
+    flex-direction: column-reverse;
+    padding: 50px 0 0 0;
+    width: 86%;
+  }
+  .services_article > div:nth-child(1) {
+    width: 90%;
+    margin-right: 0;
+    margin-top: 30px;
+  }
+
+  .services_article h2 {
+    font-size: 26px;
+    line-height: 28px;
+    margin-bottom: 30px;
+  }
+  .services_article p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .services_article > div:nth-child(2) {
+    position: relative;
+    height: 200px;
+    width: 300px;
+  }
+  .portfolio_article {
+    padding: 30px 0 0 0;
+  }
+  .portfolio_article_information {
+    flex-direction: column-reverse;
+  }
+  .portfolio_article_information > div:nth-child(1) {
+    width: 90%;
+  }
+  .portfolio_article_information_image {
+    position: relative;
+    min-height: 150px;
+    min-width: 150px;
+    margin-bottom: 30px;
+  }
+  .line {
+    display: none;
+  }
+  .portfolio_article_information h1 {
+    font-size: 26px;
+    line-height: 28px;
+  }
+  .portfolio_article_information h2 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .portfolio_article_information p {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }
