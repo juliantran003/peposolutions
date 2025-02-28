@@ -2,7 +2,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { useState } from "react";
+
 export default function Header() {
+  const [burger, setBurger] = useState(false);
+  const [burgerMenu, setBurgerMenu] = useState(false);
+  const clickFalse = () => {
+    setBurger(false);
+    setBurgerMenu(false);
+  };
+  const clickTrue = () => {
+    setBurger(true);
+    setBurgerMenu(true);
+  };
   const router = useRouter();
   var prevScrollpos = window.pageYOffset;
 
@@ -37,6 +49,19 @@ export default function Header() {
           <a className="header_button" href="mailto:someone@yoursite.com">
             GET IN TOUCH{" "}
           </a>
+        </div>
+        <div className="burger_container" onClick={() => clickTrue()}>
+          <Image fill src="/img/burger-bar.png" />
+        </div>
+        <div className={burgerMenu ? "burger_menu" : "burger_menu_hide"}>
+          <div className="burger_cancel" onClick={() => clickFalse()}>
+            <Image fill src="/img/cancel.png" />
+          </div>
+
+          <Link href="/">Home</Link>
+          <Link href="/services">Services</Link>
+          <Link href="/portfolio">Portfolio</Link>
+          <Link href="/about">About</Link>
         </div>
       </div>
     </header>
