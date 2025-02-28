@@ -58,10 +58,18 @@ export default function Header() {
             <Image fill src="/img/cancel.png" />
           </div>
 
-          <Link href="/">Home</Link>
-          <Link href="/services">Services</Link>
-          <Link href="/portfolio">Portfolio</Link>
-          <Link href="/about">About</Link>
+          <Link href="/" onClick={() => clickFalse()}>
+            Home
+          </Link>
+          <Link href="/services" onClick={() => clickFalse()}>
+            Services
+          </Link>
+          <Link href="/portfolio" onClick={() => clickFalse()}>
+            Portfolio
+          </Link>
+          <Link href="/about" onClick={() => clickFalse()}>
+            About
+          </Link>
         </div>
       </div>
     </header>
