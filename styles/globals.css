@@ -119,6 +119,10 @@ body {
 .burger_menu_hide {
   display: none;
 }
+header.scrolled {
+  background-color: black;
+  z-index: 3;
+}
 
 .header_container {
   max-width: 1440px;
@@ -131,6 +135,7 @@ body {
   background: none;
   z-index: 2;
   background: inherit;
+  /* filter: invert(); */
 }
 #header.hidden {
   transition: 0.5s;
@@ -803,7 +808,10 @@ body {
   }
 
   .header_grid_box_1 {
-    margin-top: 10px;
+    margin-top: 5px;
+  }
+  .header_logo {
+    width: 40px;
   }
   .header_menu {
     display: none;

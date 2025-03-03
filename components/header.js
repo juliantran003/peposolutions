@@ -28,6 +28,16 @@ export default function Header() {
     prevScrollpos = currentScrollPos;
   };
 
+  const myNav = document.getElementById("header");
+
+  window.onscroll = function () {
+    if (window.scrollY > window.innerHeight - 80) {
+      myNav.classList.add("scrolled");
+    } else {
+      myNav.classList.remove("scrolled");
+    }
+  };
+
   return (
     <header className="header_container" id="header">
       <div className="header_grid">
