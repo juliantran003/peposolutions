@@ -113,6 +113,12 @@ body {
 .burger_container {
   display: none;
 }
+.burger_menu {
+  display: none;
+}
+.burger_menu_hide {
+  display: none;
+}
 
 .header_container {
   max-width: 1440px;
