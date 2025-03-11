@@ -282,30 +282,101 @@ header.scrolled {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   /* box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   border: var(--color-white) 1px solid; */
 }
-.footer > div {
-  position: relative;
+
+.footer1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 25%;
+  font-family: "Text";
+  font-size: 18px;
+  margin-left: 7%;
 }
-.footer > div > img {
+.footer1 > div {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.footer1 > div > img {
   object-fit: contain;
 }
-.footer > div:nth-child(1) {
-  height: 30px;
-  width: 25px;
-  margin-left: 14%;
+
+.footer1 > p {
+  color: gray;
+  font-size: 18px;
+  line-height: 22px;
 }
-.footer > div:nth-child(2) {
-  height: 40px;
-  width: 40px;
+.footer2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.footer > a {
-  font-size: 12px;
+.footer2 > p {
+  font-family: "Text";
+  font-size: 18px;
+  color: gray;
+  max-width: 80%;
+  text-align: center;
+  line-height: 22px;
+}
+.footer2 > p:hover {
+  color: var(--color-white);
+  cursor: pointer;
+}
+.footer2 > div {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+.footer2 > div > img {
+  object-fit: contain;
+}
+.footer3 > h3 {
+  font-family: "Text";
+  margin-bottom: 20px;
+}
+
+.footer3 > ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.footer3 > ul > a {
+  color: gray;
+  font-size: 18px;
+  font-family: "Text";
+  text-decoration: none;
+  line-height: 22px;
+}
+.footer3 > ul > a:hover {
+  color: var(--color-white);
+}
+.footer4 {
   margin-right: 7%;
+}
+.footer4 > h3 {
+  font-family: "Text";
+  margin-bottom: 20px;
+}
+.footer4 > a {
+  color: gray;
+  font-size: 18px;
+  font-family: "Text";
+  text-decoration: none;
+  line-height: 22px;
+  border: none;
+}
+
+.footer4 > a:hover {
+  color: var(--color-white);
 }
 
 /* HERO */
