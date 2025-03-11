@@ -12,8 +12,20 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
-        <meta name="description" content="Homepage for Pepo Solutions" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="title" content="Pepo Solutions Homepage" />
+        <meta
+          name="description"
+          content="  Empowering small food businesses to reach the next step on their
+          journey. Pepo Solutions is a branding consultancy based in London. Our
+          founder, Jose Moreno (Pepo) is a passionate advocate and ex-member of
+          the street food industry. Our company’s purpose is to help street food
+          business owners grow their business through branding design, social
+          media and photography."
+        />
+        <meta
+          name="keywords"
+          content="pepo, solutions, peposolutions, street, food, branding, company, design, business, grow, social, media, food, photography"
+        />
       </Head>
       <main>
         <Hero />

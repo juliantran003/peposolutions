@@ -25,7 +25,7 @@ export default function Layout({ children }) {
         />
         <title>Pepo Solutions</title>
         <meta name="description" content="" key="desc" />
-        <meta property="og:title" content={"Julian Tran"} />
+        <meta property="og:title" content={"Pepo Solutions"} />
         <meta property="og:description" content="" />
         <meta property="og:image" content="/favicon.ico" />
         <meta name="keywords" content="" />
