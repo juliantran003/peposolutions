@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Header() {
   const [burger, setBurger] = useState(false);
@@ -27,9 +27,11 @@ export default function Header() {
     }
     prevScrollpos = currentScrollPos;
   };
+  const [myNav, setmyNav] = useState(document.getElementById("header"));
 
-  const myNav = document.getElementById("header");
-
+  useEffect(() => {
+    setmyNav(document.getElementById("header"));
+  }, []);
   window.onscroll = function () {
     if (window.scrollY > window.innerHeight - 80) {
       myNav.classList.add("scrolled");
