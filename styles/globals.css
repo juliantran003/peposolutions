@@ -405,7 +405,7 @@ header.scrolled {
 .hero_content > h1 {
   font-family: Title;
   max-width: 50vw;
-  font-size: 100px;
+  font-size: 70px;
   margin-bottom: 30px;
   /* mix-blend-mode: exclusion; */
 }
@@ -937,8 +937,8 @@ header.scrolled {
     padding-left: 7%;
   }
   .hero_content > h1 {
-    font-size: 50px;
-
+    font-size: 40px;
+    max-width: 70vw;
     /* mix-blend-mode: exclusion; */
   }
   .hero_content > a {
@@ -1073,5 +1073,8 @@ header.scrolled {
 
     margin-top: 50px;
     margin-bottom: 10px;
+  }
+  .hero_template_content > h1 {
+    max-width: 80vw;
   }
 }

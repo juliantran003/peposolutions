@@ -6,8 +6,11 @@ export default function Hero() {
   return (
     <div className="hero_container">
       <div className="hero_content">
-        <h1>Elevate your food business branding</h1>
-        <Link href="/services">Get a Quote</Link>
+        <h1>
+          Launch. Grow. Stand Out. <br></br>
+          <br></br>Your Food Business, Branded Right.
+        </h1>
+        <Link href="/services">Our Services</Link>
       </div>
       {/* <div className="hero_icons">
         <Image src="/img/hero_icons.png" fill alt="Picture of the author" />

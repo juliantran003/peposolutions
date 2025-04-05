@@ -15,7 +15,7 @@ export default function About() {
       <main className="about">
         <HeroTemplate title="about us" img="discussion.jpg" />
         <div className="about_logo">
-          <Image fill src="/img/logos/B&W-with-black-outline.png" />
+          <Image fill src="/img/logos/B&W-logo.png" />
         </div>
         <h3>
           Welcome! I’m Jose, the founder of Pepo Solutions, and a passionate
