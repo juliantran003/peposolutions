@@ -25,7 +25,7 @@ This rebrand has helped Chulo establish a strong visual identity, attracting new
           // img4="/img/bask-street-boys-frontage.JPEG"
           objectFit="contain"
         />
-        <PortfolioArticle
+        {/* <PortfolioArticle
           business="The Frenchie"
           date="2024"
           description1="Pepo Solutions teamed up with The Frenchie to refresh their branding and build a striking new frontage for their stall. We reimagined their logo to reflect their bold, fun, and authentic French street food experience, ensuring their brand stands out in a crowded market."
@@ -35,7 +35,7 @@ This rebrand has helped Chulo establish a strong visual identity, attracting new
           // img3="/img/bask-street-boys-frontage.JPEG"
           // img4="/img/bask-street-boys-frontage.JPEG"
           objectFit="cover"
-        />
+        /> */}
         <PortfolioArticle
           business="Bask Street Boys"
           date="2024"
