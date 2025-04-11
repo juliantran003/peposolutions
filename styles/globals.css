@@ -881,6 +881,9 @@ header.scrolled {
   .header_grid_box_1 {
     margin-top: 5px;
   }
+  .header_grid_box_3 {
+    display: none;
+  }
   .header_logo {
     width: 40px;
   }
