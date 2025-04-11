@@ -31,7 +31,7 @@ export default function Footer() {
       </div>
       <div className="footer4">
         <h3>CONTACT</h3>
-        <a href="mailto:someone@yoursite.com">pepo@peposolutions.com</a>
+        <a href="mailto:peposolutions@gmail.com">peposolutions@gmail.com</a>
       </div>
       {/* <div>
         <Image src="/img/instagram.png" fill alt="Instagram" />

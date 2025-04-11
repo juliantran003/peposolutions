@@ -58,7 +58,7 @@ export default function Header() {
           </menu>
         </div>
         <div className="header_grid_box_3">
-          <a className="header_button" href="mailto:someone@yoursite.com">
+          <a className="header_button" href="mailto:peposolutions@gmail.com">
             GET IN TOUCH{" "}
           </a>
         </div>
