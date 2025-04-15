@@ -7,13 +7,12 @@ export default function PorftfolioArticle({
   description2,
   img1,
   img2,
-  img3,
-  img4,
+
   objectFit,
+  testimonial,
 }) {
   return (
     <main className="portfolio_article">
-      <div className="line"></div>
       <div className="portfolio_article_information">
         <div>
           <h1>{business}</h1>
@@ -25,19 +24,13 @@ export default function PorftfolioArticle({
           <Image src={img1} fill objectFit={objectFit} />
         </div>
       </div>
-      {img2 && (
-        <div className="portfolio_article_images">
-          <div>
-            <Image src={img2} fill />
-          </div>
-          <div>
-            <Image src={img3} fill />
-          </div>
-          <div>
-            <Image src={img4} fill />
-          </div>
+      <div className="portfolio_article_testimonial">
+        {" "}
+        <div className="portfolio_article_frontage_image">
+          <Image src={img2} fill />
         </div>
-      )}
+        <p>"{testimonial}"</p>
+      </div>
     </main>
   );
 }

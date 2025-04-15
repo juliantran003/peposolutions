@@ -404,7 +404,7 @@ header.scrolled {
 
 .hero_content > h1 {
   font-family: Title;
-  max-width: 50vw;
+  width: 800px;
   font-size: 70px;
   margin-bottom: 30px;
   /* mix-blend-mode: exclusion; */
@@ -644,9 +644,11 @@ header.scrolled {
 .line {
   width: 80%;
   margin: 0 auto;
+
   height: 1px;
   background-color: var(--color-darkblue);
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  margin-top: 60px;
 }
 
 .portfolio_article {
@@ -707,7 +709,32 @@ header.scrolled {
 .portfolio_article_images > div > img {
   object-fit: cover;
 }
+.portfolio_article_testimonial {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.portfolio_article_testimonial > p {
+  color: black;
+  font-family: "Text";
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+  margin-left: 5%;
+  line-height: 20px;
+}
 
+.portfolio_article_frontage_image {
+  position: relative;
+  height: 250px;
+  min-width: 300px;
+}
+.portfolio_article_frontage_image > img {
+  object-fit: cover;
+  object-position: center;
+}
 /* SERVICES */
 
 .services {
@@ -1033,9 +1060,7 @@ header.scrolled {
     min-width: 150px;
     margin-bottom: 30px;
   }
-  .line {
-    display: none;
-  }
+
   .portfolio_article_information h1 {
     font-size: 26px;
     line-height: 28px;
@@ -1047,6 +1072,32 @@ header.scrolled {
   .portfolio_article_information p {
     font-size: 18px;
     line-height: 20px;
+  }
+  .portfolio_article_testimonial {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .portfolio_article_testimonial > p {
+    color: black;
+    font-family: "Text";
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 0;
+    line-height: 20px;
+    width: 90%;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .portfolio_article_frontage_image {
+    position: relative;
+    height: 250px;
+    width: 90%;
   }
   .about {
     padding-bottom: 20px;

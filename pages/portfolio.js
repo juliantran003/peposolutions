@@ -20,10 +20,12 @@ export default function Portfolio() {
 This rebrand has helped Chulo establish a strong visual identity, attracting new customers and creating a memorable presence in the competitive London street food scene.
 "
           img1="/img/chulo.png"
+          img2="/img/chulo-frontage.JPG"
           // img2="/img/bask-street-boys-frontage.JPEG"
           // img3="/img/bask-street-boys-frontage.JPEG"
           // img4="/img/bask-street-boys-frontage.JPEG"
           objectFit="contain"
+          testimonial="A huge shoutout to Pepo for his incredible work on my branding and stall frontage. His creativity and attention to detail have truly brought my vision to life, making Chulo stand out wherever we go."
         />
         {/* <PortfolioArticle
           business="The Frenchie"
@@ -35,29 +37,38 @@ This rebrand has helped Chulo establish a strong visual identity, attracting new
           // img3="/img/bask-street-boys-frontage.JPEG"
           // img4="/img/bask-street-boys-frontage.JPEG"
           objectFit="cover"
-        /> */}
+        /> */}{" "}
+        <div className="line"></div>
         <PortfolioArticle
           business="Bask Street Boys"
           date="2024"
           description1="Pepo Solutions partnered with Bask Street Boys to revamp their street food stall with a brand new frontage that captures the energy of their brand. This transformation not only enhanced the stall’s visibility but also created a more inviting atmosphere, drawing in more customers and boosting sales."
           description2="With a stronger brand presence, Bask Street Boys now stands out in the bustling street food scene, making a lasting impression on both loyal patrons and new visitors alike."
           img1="/img/bask-street-boys.jpg"
+          img2="/img/bask-street-boys-frontage.JPEG"
           // img2="/img/bask-street-boys-frontage.JPEG"
           // img3="/img/bask-street-boys-frontage.JPEG"
           // img4="/img/bask-street-boys-frontage.JPEG"
           objectFit="cover"
-        />
+          testimonial="Pepo solutions did an amazing job on our new frontage, he made it in a quick and efficient manner, the whole frontage is sturdy and very easy to put together. 
 
+Since we changed to our new frontage we have seen an increase in our income, loads of people are commenting on it and it attracts footfall from afar. We will always be grateful to Peposolutions about the job he made and how it helped our business grow. "
+        />
+        <div className="line"></div>
         <PortfolioArticle
           business="Philly Philly"
           date="2024"
           description1="Pepo Solutions teamed up with Philly Philly to design a bold new logo that captures the essence of their delicious, Philly-inspired street food. The sleek, modern design combines strong typography with a dynamic color scheme, making it instantly recognizable. To enhance visibility, Pepo Solutions also installed a striking logo display lightbox, ensuring the brand stands out day and night."
           description2="This transformation has not only elevated Philly Philly’s professional image but has also attracted more customers, increased social media buzz, and reinforced its identity as a go-to spot for authentic street food flavors."
           img1="/img/philly-logo.png"
+          img2="/img/philly-frontage.jpg"
           // img2="/img/bask-street-boys-frontage.JPEG"
           // img3="/img/bask-street-boys-frontage.JPEG"
           // img4="/img/bask-street-boys-frontage.JPEG"
           objectFit="contain"
+          testimonial="I reached out to Pepo Solutions to design my food stall, including the logo, menu, and sky banner. 
+
+Pepo was very kind and helpful at every step of the project. I can confidently say that my stall is now more eye-catching and busier than before! I can’t wait to show off the new look at festivals!"
         />
       </main>
     </>
